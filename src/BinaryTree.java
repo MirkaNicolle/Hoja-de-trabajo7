@@ -4,7 +4,7 @@
  * BinaryTree class
  */
 
-public class BinaryTree {
+public class BinaryTree <E> {
     //Atributos
     Object node = null;
     BinaryTree left;
@@ -81,6 +81,7 @@ public class BinaryTree {
 
         return inOrder;
     }
+
 
     //left BinaryTree getter
     public BinaryTree getLeft() {
